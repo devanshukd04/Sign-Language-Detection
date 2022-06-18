@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3i4GIwmtxKU9ScGvRBNyefj-SbC8R_ax8sA&usqp=CAU">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3i4GIwmtxKU9ScGvRBNyefj-SbC8R_ax8sA&usqp=CAU"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/style1.css">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Sign Language Recognition</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="heading">
+      <h1 class="text-center">Sign Language Recognition</h1>
+    </div>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="heading1">
+      <h1 style="text-align: center;">What is Sign Language </h1>
+      <br/>
+      <div class="content">
+        <p style="text-align: center;">Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon.</p>
+      </div>
+    </div>
+
+    <h1 class="heading3"><span>Sign Language</span></h1>
+
+    <!-- slider -->
+    <div class="slider">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="15" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="16" aria-label="Slide 17"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="17" aria-label="Slide 18"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="18" aria-label="Slide 19"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="19" aria-label="Slide 20"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="20" aria-label="Slide 21"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="21" aria-label="Slide 22"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="22" aria-label="Slide 23"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="23" aria-label="Slide 24"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="24" aria-label="Slide 25"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="25" aria-label="Slide 26"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="26" aria-label="Slide 27"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="27" aria-label="Slide 28"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="28" aria-label="Slide 29"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="29" aria-label="Slide 30"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="image">
+              <img src="/static/Images/A.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for A</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="image">
+              <img src="/static/Images/B.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for B</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/C.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for C</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/D.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for D</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/E.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for E</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/F.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for F</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/G.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for G</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/H.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for H</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/I.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for I</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/J.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for J</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/K.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for K</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/L.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for L/h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/M.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for M</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/N.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for N</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/O.jpg" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for O</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/P.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for P</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/Q.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Q</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/R.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for R</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/S.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for S</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/T.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for T</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/U.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for U</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/V.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for V</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/W.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for W</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/X.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for X</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/Y.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Y</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image">
+              <img src="/static/Images/Z.png" width ="250px" height="350px" >
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Z</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image" style="height:450px">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/xVuM_WPsOB8?autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=xVuM_WPsOB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Danger</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image" style="height:450px">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/D-6BxGJ0ru8?autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=D-6BxGJ0ru8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Wish</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image" style="height:450px">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/5WjkSj17yjE?autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=5WjkSj17yjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Wait</h5>
+              </figcaption>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="image" style="height:450px">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/1s1-9Ve6LN8?autoplay=1&mute=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=1s1-9Ve6LN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="image">
+              <figcaption>
+                <h5>Sign Language for Thief</h5>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+
+    <!-- <div class="heading5">
+      <h1>What is Sign Language </h1>
+    </div> -->
+
+    <h1 class="heading3"><span>Need of Sign Language</span></h1>
+
+    
+    <div class="card1">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card" style="width: 33rem;">
+            <img class="card-img-top" src="/static/Images/card1.jpg" width ="200px" height="300px" alt="Card image cap">
+            <h1 style="margin-top: 8px;font-size:30px;">Help Deaf people and Dumb people</h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card" style="width: 33rem;">
+            <img class="card-img-top" src="/static/Images/card2.png" width ="200px" height="300px" alt="Card image cap">
+            <h1 style="margin-top: 8px;font-size:30px;">Children can acquire Sign Language</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="card2">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    
+    
+    <!-- button -->
+    <div class="button">
+
+      <!-- <div class="box4">
+        <form action="http://localhost:5000/camera" method="POST" enctype="multipart/form-data">
+          <input type="submit" , value="Start Camera" />
+            alert('Your WebCam is Switching ON!')  
+        </form action>
+      </div> -->
+
+      <!-- <button href="http://localhost:5000/predict" type="button" class="btn btn-outline-success" onclick="alert('Your WebCam is Switching ON!')">Lets Start</button> -->
+    </div>
+
+
+    <div style="position: relative; display:flex; justify-content:center; align-items:center;"class="box4">
+      <form action="http://localhost:5000/camera" method="POST" enctype="multipart/form-data">
+        <input style="width:220px; height:60px; margin-bottom:20px; padding-top: 10px; padding-bottom: 10px; font-size: 1.5rem; font-weight: bold; color:white; background-color: #121846; position: relative; display: flex; justify-content: center; align-items: center;"type="submit" , value="Let's Start" />
+         <!-- alert('Your WebCam is Switching ON!')  -->
+      </form action>
+    </div>
+
+    <!-- <a href="http://localhost:5000/predict" class="btn" onclick="alert('Hello world!')"s> <img src="static/image/Button_2.png" alt="" height="150px" ></a>
+
+    <div class="price"></div>
+    <a href="http://localhost:5000/predict" class="btn"> <img src="static/image/Button_2.png" alt="" height="150px" ></a>
+
+    <a href="https://getbootstrap.com/docs/4.0/components/buttons/" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true" onclick="alert('Hello world!')">Primary link</a> -->
+
+  
+
+    <div style="justify-content:center; align-items:center;"class="developer">
+      <h1 class="heading3"><span>Developer</span></h1>
+      <div style="justify-content:center; align-items: center; text-align:center;"class="images">
+        <h3>Devanshu Dalal</h3>
+        <img style="height:10rem; width:10rem; border-radius: 50%;" src="/static/Images/Devanshu.jpg" alt="">
+        <br/>
+        <div style="margin-top: 4px;"class="image">
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/devanshu-dalal-3042a1219"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <footer class="text-center text-white" style="background-color: #0a4275;">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="mailto:devanshukd27@gmail.com"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="https://www.instagram.com/devanshu.k.dalal/"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333;"
+            href="https://github.com/devanshukd04"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <footer>
+        <p>Author: Devanshu Dalal<br />
+          <a href="mailto:devanshukd27@gmail.com">devanshukd27@gmail.com</a>
+        </p>
+      </footer>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
