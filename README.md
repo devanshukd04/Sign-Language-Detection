@@ -6,5 +6,5 @@
 
 ## What it does?
 - The Sign Language Detection project will help deaf people while communicating. This could benefit people who are deaf or dumb, as they cannot communicate with others.
-- The project is implemented for 26 English alphabets and special signs like Thief, Danger, Wish and Wait. Through the use of a webcam, a sign can be inputted into the computer, which then displays its meaning on the screen.
+- The project is implemented for 26 English alphabets and special signs like Thief, Danger, Wish and Wait. Through the use of a openCV, a sign can be detected by the model, which then displays the output on the screen.
 
