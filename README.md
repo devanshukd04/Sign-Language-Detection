@@ -14,3 +14,10 @@
 - The LSTM model then processes the input and predicts the output based on the hand gesture in real-time. Besides detecting static signs like the alphabet, the model is capable of detecting dynamic signs like Danger, Wish, Wait, and Thief. 
 - The Deep Learning model is further deployed on a webpage using the Flask framework. In order to design and style the webpage, HTML and CSS have been used. As a result, the user interface would be more interactive, which would make the application more usable. 
 
+## Challenges I ran into
+- The main challenges we faced included a lack of a ready dataset for emergency signs, the difficulty in decoding signs which were not just static, but involving continuous movement, and the obstacle in messaging the emergency service contact number directly from the website.
+
+## Accomplishments that I am proud of
+- The ML model used can efficiently detect the ISL signs, with an accuracy of 98%. 
+- Just showing the sign, a person can directly contact the emergency sevice in a matter of second. Even though we were in different cities, we ensured we completed this project on time and with a good accuracy.
+
